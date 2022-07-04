@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Poppins:wght@700&display=swap');
+
+body {
+  padding:0;
+  margin: 0;
+  background:#111;
+  /*background-color: #1b2d48;*/
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  font-family: 'Comforter', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+.box-border0 {
+  position: absolute;
+  top:15%;
+  left:15%;
+  width:70%;
+  height:70%;
+  background-color:#383d52;
+  border-radius:50px;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  box-shadow: 0 0 10px whitesmoke,
+                 0 0 20px whitesmoke,
+                 0 0 40px whitesmoke,
+                 0 0 80px whitesmoke;
+
+  animation: border0-color 1s linear;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+  animation-delay:26s;
+}
+
+.box-border1 {
+  position: absolute;
+  top:25%;
+  left:25%;
+  width:50%;
+  height:10%;
+  background-color:#252839;
+  border-radius:50px;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  box-shadow:none;
+  
+    animation:red 0.5s;
+    animation-iteration-count: 15;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+.box-border2 {
+  position: absolute;
+  top:65%;
+  left:25%;
+  width:50%;
+  height:10%;
+  background-color:#252839;
+  border-radius:50px;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  box-shadow:none;
+  
+  animation:green 0.5s;
+  animation-iteration-count:21;
+  animation-fill-mode: forwards;
+  animation-delay: 13s;
+}
+
+.cont h1 {
+  display: inline;
+  margin:0;
+  padding:0;
+  
+  }
+
+.j {
+  position: absolute;
+  top:26%;
+  right:31%;
+  
+  animation:animate 2s linear, blink-red 0.5s ease-in-out, rotate1 1s ease-in-out,
+  blink-green 0.5s ease-in-out;
+  animation-fill-mode: forwards,none,forwards,forwards;
+  animation-iteration-count: 1,6,1,6;
+  animation-delay:6s,9s,12s,24s;
+}
+
+.i {
+ position: absolute;
+ top:26%;
+ right:34%;
+  
+  animation:animate 2s linear, blink-red 0.5s ease-in-out, rotate2 1s ease-in-out,
+  blink-green 0.5s ease-in-out;
+  animation-fill-mode: forwards,none,forwards,forwards;
+  animation-iteration-count: 1,6,1,6;
+  animation-delay:5.5s, 9s, 13s, 24s;
+}
+
+.r1 {
+  position: absolute;
+  top:26%;
+  right:37%;
+  
+  animation:animate 2s linear, blink-red 0.5s ease-in-out, rotate3 1s ease-in-out,
+  blink-green 0.5s ease-in-out;
+  animation-fill-mode: forwards,none,forwards,forwards;
+  animation-iteration-count: 1,6,1,6;
+  animation-delay:5s, 9s, 14s, 24s;
+}
+
+.o1 {
+  position: absolute;
+  top:26%;
+  right:40%;
+  
+  animation:animate 2s linear, blink-red 0.5s ease-in-out, rotate4 1s ease-in-out,
+  blink-green 0.5s ease-in-out;
+  animation-fill-mode: forwards,none,forwards,forwards;
+  animation-iteration-count: 1,6,1,6;
+  animation-delay: 4.5s, 9s, 15s, 24s;
+}
+
+.m{
+  position: absolute;
+  top:26%;
+  right:47%;
+  
+  animation:animate 2s linear, blink-red 0.5s ease-in-out, rotate5 1s ease-in-out,
+  blink-green 0.5s ease-in-out;
+  animation-fill-mode: forwards,none,forwards,forwards;
+  animation-iteration-count: 1,6,1,6;
+  animation-delay: 4s, 9s, 16s, 24s;
+}
+
+.e{
+  position: absolute;
+  top:26%;
+  right:50.4%;
+  
+  animation:animate 2s linear, blink-red 0.5s ease-in-out, rotate6 1s ease-in-out,
+  blink-green 0.5s ease-in-out;
+  animation-fill-mode: forwards,none,forwards,forwards;
+  animation-iteration-count: 1,6,1,6;
+  animation-delay: 3.5s, 9s, 17s, 24s;
+}
+
+.n{
+  position: absolute;
+  top:26%;
+  right:53%;
+  
+  animation:animate 2s linear, blink-red 0.5s ease-in-out, rotate7 1s ease-in-out,
+  blink-green 0.5s ease-in-out;
+  animation-fill-mode: forwards,none,forwards,forwards;
+  animation-iteration-count: 1,6,1,6;
+  animation-delay: 3s,9s, 18s, 24s;
+}
+
+.d2{
+  position: absolute;
+  top:26%;
+  right:56%;
+  
+ animation:animate 2s linear, blink-red 0.5s ease-in-out, rotate8 1s ease-in-out,
+  blink-green 0.5s ease-in-out;
+  animation-fill-mode: forwards,none,forwards,forwards;
+  animation-iteration-count: 1,6,1,6;
+  animation-delay: 2.5s,9s,19s,24s;
+}
+
+.a{
+  position: absolute;
+  top:26%;
+  right:59%;
+  
+  animation:animate 2s linear, blink-red 0.5s ease-in-out, rotate9 1s ease-in-out,
+  blink-green 0.5s ease-in-out;
+  animation-fill-mode: forwards,none,forwards,forwards;
+  animation-iteration-count: 1,6,1,6;
+  animation-delay: 2s,9s,20s,24s;
+}
+
+.d1{
+  position: absolute;
+  top:26%;
+  right:62%;
+  
+  animation:animate 2s linear, blink-red 0.5s ease-in-out, rotate10 1s ease-in-out,
+  blink-green 0.5s ease-in-out;
+  animation-fill-mode: forwards,none,forwards,forwards;
+  animation-iteration-count: 1,6,1,6;
+  animation-delay: 1.5s,9s,21s,24s;
+}
+
+.o2{
+  position: absolute;
+  top:26%;
+  right:65%;
+  
+  animation:animate 2s linear, blink-red 0.5s ease-in-out, rotate11 1s ease-in-out,
+  blink-green 0.5s ease-in-out;
+  animation-fill-mode: forwards,none,forwards,forwards;
+  animation-iteration-count: 1,6,1,6;
+  animation-delay:1s,9s,22s,24s;
+}
+
+.r2{
+  position: absolute;
+  top:26%;
+  right:68%;
+  
+  animation:animate 2s linear, blink-red 0.5s ease-in-out, rotate12 1s ease-in-out,
+  blink-green 0.5s ease-in-out;
+  animation-fill-mode: forwards,none,forwards,forwards;
+  animation-iteration-count: 1,6,1,6;
+  animation-delay: 0.5s, 9s, 23s, 24s;
+}
+
+
+/*intro animation*/
+@keyframes animate {
+  0%, 100% {
+    color:#fff;
+    filter:blur(1px);
+    text-shadow: 0 0 10px #ff0000,
+                 0 0 20px #ff0000,
+                 0 0 40px #ff0000,
+                 0 0 80px #ff0000,
+                 0 0 120px #ff0000,
+                 0 0 200px #ff0000,
+                 0 0 300px #ff0000,
+                 0 0 400px #ff0000;
+  }
+  5%, 95% {
+    color:#111;
+    filter:blur(1px);
+    /*text-shadow:none;*/
+    text-shadow: 0 0 10px #54C2CC,
+                0 0 20px #54C2CC,
+                0 0 40px #54C2CC,
+                0 0 80px #54C2CC,
+                0 0 120px #54C2CC,
+                0 0 200px #54C2CC,
+                0 0 300px #54C2CC,
+                0 0 400px #54C2CC;
+  }
+}
+
+/*rotation animation*/
+@keyframes rotate1 {
+  0% {
+            transform:rotateY(0deg);
+            
+  }
+  100% {
+            transform:rotateY(360deg);
+            top:66%;
+            right:68%;
+  }
+}
+@keyframes rotate2 {
+  100% {
+    transform: rotateY(360deg);
+    top:66%;
+    right:65%;
+  }
+} 
+@keyframes rotate3 {
+  100% {
+    transform: rotateY(360deg);
+    top:66%;
+    right: 62%;
+  }
+} 
+@keyframes rotate4 {
+  100% {
+    transform: rotateY(360deg);
+    top:66%;
+    right: 59%;
+  }
+} 
+@keyframes rotate5 {
+  100% {
+    transform: rotateY(360deg);
+    top:66%;
+    right: 52%;
+  }
+}
+@keyframes rotate6 {
+  100% {
+    transform: rotateY(360deg);
+    top:66%;
+    right: 49%;
+  }
+}
+@keyframes rotate7 {
+  100% {
+    transform: rotateY(360deg);
+    top:66%;
+    right: 46%;
+  }
+}
+@keyframes rotate8 {
+  100% {
+    transform: rotateY(360deg);
+    top:66%;
+    right: 43%;
+  }
+}
+@keyframes rotate9 {
+  100% {
+    transform: rotateY(360deg);
+    top:66%;
+    right:40%;
+  }
+}
+@keyframes rotate10 {
+  100% {
+    transform: rotateY(360deg);
+    top:66%;
+    right:37%;
+  }
+}
+@keyframes rotate11 {
+  100% {
+    transform: rotateY(360deg);
+    top:66%;
+    right:34%;
+  }
+}
+@keyframes rotate12 {
+  100% {
+    transform: rotateY(360deg);
+    top:66%;
+    right:31%;
+  }
+}
+
+/*color animation*/
+@keyframes blink-green {
+  0% {
+    text-shadow: 0 0 10px #54C2CC,
+    0 0 20px #54C2CC,
+    0 0 40px #54C2CC,
+    0 0 80px #54C2CC,
+    0 0 120px #54C2CC,
+    0 0 200px #54C2CC,
+    0 0 300px #54C2CC,
+    0 0 400px #54C2CC;
+  }
+  100% {
+    text-shadow: 0 0 10px #26D962,
+                0 0 20px #26D962,
+                0 0 40px #26D962,
+                0 0 80px #26D962,
+                0 0 120px #26D962,
+                0 0 200px #26D962,
+                0 0 300px #26D962,
+                0 0 400px #26D962;
+  }
+}
+
+@keyframes green {
+  
+  100% {
+      box-shadow: 0 0 5px #26D962,
+  0 0 10px #26D962,
+  0 0 20px #26D962,
+  0 0 20px #26D962;
+  }
+}
+
+@keyframes blink-red {
+  0% {
+        text-shadow: 0 0 10px whitesmoke,
+        0 0 20px whitesmoke,
+        0 0 40px whitesmoke,
+        0 0 80px whitesmoke,
+        0 0 120px whitesmoke,
+        0 0 200px whitesmoke,
+        0 0 300px whitesmoke,
+        0 0 400px whitesmoke,;
+  }
+  100% {
+    text-shadow: 0 0 10px #A70D0D,
+                0 0 20px #A70D0D,
+                0 0 40px #A70D0D,
+                0 0 80px #A70D0D,
+                0 0 120px #A70D0D,
+                0 0 200px #A70D0D,
+                0 0 300px #A70D0D,
+                0 0 400px #A70D0D;
+  }
+}
+
+@keyframes red {
+  100% {
+    box-shadow: 0 0 5px #A70D0D,
+  0 0 10px #A70D0D,
+  0 0 20px #A70D0D,
+  0 0 40px #A70D0D;
+  }
+}
+
+@keyframes border0-color {
+  100% {
+    box-shadow: 0 0 10px #54C2CC,
+    0 0 20px #54C2CC,
+    0 0 40px #54C2CC,
+    0 0 80px #54C2CC;
+  }
+}
